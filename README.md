@@ -1,4 +1,7 @@
 # Prompt Manager
+![image](https://github.com/user-attachments/assets/9104f27f-dbe6-4cb0-85c2-216a09fe1f34)
+---
+![image](https://github.com/user-attachments/assets/ae08b231-a21b-4bb5-b885-4601384d6f95)
 
 A beautiful and powerful prompt management application built with React Native and Expo.
 
@@ -27,8 +30,8 @@ A beautiful and powerful prompt management application built with React Native a
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd prompt-manager
+   git clone https://github.com/e96031413/Prompt-Manager-ReactNative
+   cd Prompt-Manager-ReactNative
    ```
 
 2. Install dependencies:
