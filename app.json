@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Prompt Manager",
+    "slug": "prompt-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "promptmanager",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.promptmanager",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Prompt Manager",
+        "UIBackgroundModes": [],
+        "NSCameraUsageDescription": "This app does not need camera access",
+        "NSPhotoLibraryUsageDescription": "This app does not need photo library access",
+        "NSPhotoLibraryAddUsageDescription": "This app does not need photo library access",
+        "NSMicrophoneUsageDescription": "This app does not need microphone access"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
